@@ -4,7 +4,8 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Community from './pages/Community';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'; // Import Footer component
+import Footer from './components/Footer'; 
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path="/community" element={<Community />} />
         </Routes>
       </main>
-      <Footer /> {/* Render Footer here */}
+      <Footer /> 
+      <Chatbot />
     </div>
   );
 }

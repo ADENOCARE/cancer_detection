@@ -36,12 +36,7 @@ function Navbar() {
           >
             Home
           </Link>
-          <Link
-            to="/about"
-            className="block py-3 px-6 md:py-0 md:px-0 hover:bg-blue-700 md:hover:bg-transparent hover:text-blue-200 transition"
-          >
-            About
-          </Link>
+         
           <Link
             to="/community"
             className="block py-3 px-6 md:py-0 md:px-0 hover:bg-blue-700 md:hover:bg-transparent hover:text-blue-200 transition"
