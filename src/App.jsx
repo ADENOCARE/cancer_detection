@@ -5,7 +5,7 @@ import Login from './pages/Login';
 import Community from './pages/Community';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'; 
-import Chatbot from './components/Chatbot';
+
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
         </Routes>
       </main>
       <Footer /> 
-      <Chatbot />
     </div>
   );
 }
